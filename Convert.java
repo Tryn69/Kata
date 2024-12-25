@@ -13,6 +13,8 @@ import java.util.TreeMap;
         romanKeyMap.put('C', 100);
 
 
+       arabianKeyMap.put(400, "CD");
+        arabianKeyMap.put(100, "C");
         arabianKeyMap.put(90, "XC");
         arabianKeyMap.put(50, "L");
         arabianKeyMap.put(40, "XL");
