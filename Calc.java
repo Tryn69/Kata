@@ -50,7 +50,7 @@ public class Calc {
                 //если арабские, конвертируем их из строки в число
                 a = Integer.parseInt(data[0]);
                 b = Integer.parseInt(data[1]);
-                if ((a <= 0 || a <= 11) || (b <= 0 || b <= 11)) {
+                if ((a <= 0 || a >= 11) || (b <= 0 || b >= 11)) {
                     System.out.println("Число вне допустимомого деапазона");
                     return;
                 }
